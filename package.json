@@ -4,7 +4,7 @@
   "description": "my portfolio as a front end developer ",
   "main": "app.js",
   "scripts": {
-    "deploy": "gh-pages -s src"
+    "deploy": "gh-pages src"
   },
   "repository": {
     "type": "git",
