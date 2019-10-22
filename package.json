@@ -2,9 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "my portfolio as a front end developer ",
-  "main": "app.js",
-  "scripts": {
-    "deploy": "gh-pages src"
+  "main": "app.js"
+
+  "script": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "repository": {
     "type": "git",
